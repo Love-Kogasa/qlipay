@@ -1,0 +1,23 @@
+{
+  "name": "qlipay",
+  "version": "1.0.0",
+  "description": "基于Qrcode的简单支付宝收款库(非官方Api)，适合简单项目个人使用",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Love-Kogasa/qlipay.git"
+  },
+  "keywords": [
+    "pay",
+    "alipay"
+  ],
+  "author": "Love-Kogasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Love-Kogasa/qlipay/issues"
+  },
+  "homepage": "https://github.com/Love-Kogasa/qlipay#readme"
+}
