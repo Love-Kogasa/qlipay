@@ -1,0 +1,22 @@
+/** 实际上我也不知道为啥我要单开一个css(x */
+button {
+  background-color: #004EFF;
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+font {
+  color: #003C41;
+}
+
+body {
+  background-color: #E5E5E5;
+  padding-top: 10px;
+}
+
+s {
+  font-size: 90%;
+  color: #737373
+}

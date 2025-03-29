@@ -1,0 +1,31 @@
+<doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="../index.js"></script>
+  </head>
+  <body>
+    <center>
+      <font size="5">测试支付</font><br>
+      支付宝自定义金额: 
+      <button id="pay">支付 - PayOn ALIPAY</button>
+      <br><s>其他金额懒得弄了，自己试吧</s>
+    </center>
+    <script>
+      var alipay = new Alipay()
+      alipay.bindId( "fkx19598mkmott8qy3lwmca" )
+      alipay.on( "ok", (e, type) => {
+        document.body.innerHTML += "\nPay Ok"
+        console.log( "pay " + type )
+      })
+      alipay.on( "pay", (e) => {
+        return confirm( "是否支付(e.type→) " + e.type )
+      })
+      pay.onclick = () => {
+        alipay.pay()
+      }
+    </script>
+  </body>
+</html>
